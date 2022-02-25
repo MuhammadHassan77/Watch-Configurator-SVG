@@ -249,21 +249,21 @@
                         <input type="color" id="favcolor" name="favcolor" value="#ff0000" style="opacity: 0;">
                     </div>
                 </li>
-                <script>
+                 <!-- <script>
                     let clr = ['#751113', '#ff1e26', '#ff6600', '#feba27', '#ffff01', '#0d4f21', '#65ff00', '#47d4e5', '#4f8dfe', '#013ba7', '#ddb168', '#976005', '#8e00ce', '#dc0058', '#ffa7cf', '#ff4864', '#ffffff', '#c0c0c0', '#9a9a9a', '#4e2700', '#000000'];
                     for (i = 0; i < clr.length; i++) {
                         document.write(`<li class='submenu-li'>
                             <div class='color-box' style='background-color: ${clr[i]}'></div>
                         </li>`);
                     }
-                </script>
+                </script> -->
                 <?php
-                // $clr = ['#751113', '#ff1e26', '#ff6600', '#feba27', '#ffff01', '#0d4f21', '#65ff00', '#47d4e5', '#4f8dfe', '#013ba7', '#ddb168', '#976005', '#8e00ce', '#dc0058', '#ffa7cf', '#ff4864', '#ffffff', '#c0c0c0', '#9a9a9a', '#4e2700', '#000000'];
-                // for ($i = 0; $i < sizeof($clr); $i++) {
-                //     echo "<li class='submenu-li'>
-                //             <div class='color-box' style='background-color: $clr[$i];'></div>
-                //         </li>";
-                // }
+                $clr = ['#751113', '#ff1e26', '#ff6600', '#feba27', '#ffff01', '#0d4f21', '#65ff00', '#47d4e5', '#4f8dfe', '#013ba7', '#ddb168', '#976005', '#8e00ce', '#dc0058', '#ffa7cf', '#ff4864', '#ffffff', '#c0c0c0', '#9a9a9a', '#4e2700', '#000000'];
+                for ($i = 0; $i < sizeof($clr); $i++) {
+                    echo "<li class='submenu-li'>
+                            <div class='color-box' style='background-color: $clr[$i];'></div>
+                        </li>";
+                }
                 ?>
             </ul>
         </div>
